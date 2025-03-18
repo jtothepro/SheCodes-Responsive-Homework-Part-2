@@ -1,3 +1,9 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+    url("./images/skyline_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   font-family: Poppins;
   font-weight: 700;
