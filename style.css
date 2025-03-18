@@ -1,28 +1,70 @@
+body {
+  font-family: poppins;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
-    url("./images/skyline_hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/skyline_hero.JPG");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 400px;
+  padding: 260px 0;
+  text-align: center;
 }
-h1 {
+header a {
+  color: #272044;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 16px 32px;
+  background: white;
+}
+header h1 {
   font-family: Poppins;
   font-weight: 700;
   font-size: 96px;
   line-height: 144px;
   letter-spacing: 0%;
   text-align: center;
+  color: white;
+  margin: 0;
 }
-h2 {
+header h2 {
   font-size: 40px;
   line-height: 60px;
   font-weight: 400;
   text-align: center;
+  color: white;
+  margin: 0;
+  margin-bottom: 40px;
 }
-h3 {
+header h3 {
   font-family: poppins;
   font-weight: 900;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 5px;
   text-align: center;
+  color: white;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
