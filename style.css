@@ -54,7 +54,62 @@ header h3 {
   margin: 0;
 }
 
-@media (max-width: 900px) {
+section {
+  max-width: 1200px;
+  margein: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.7)
+    ),
+    url("images/melbourne_footer.jpg");
+  color: white;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+footer ul {
+  padding: 0;
+}
+footer li {
+font-size: 16px;
+font font-weight: 400;
+line-height: 24px;
+opacity: 60%;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+footer p {
+font-size: 16px;
+font font-weight: 400;
+line-height: 24px;
+opacity: 60%;
+margin: 20px 0;
+}
+
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
